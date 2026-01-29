@@ -1,0 +1,8 @@
+# Obsidian 내부 설정 제외 (플러그인 제외 시)
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/graph.json
+
+# 시스템 임시 파일
+[Dd]esktop.ini
+$RECYCLE.BIN/
