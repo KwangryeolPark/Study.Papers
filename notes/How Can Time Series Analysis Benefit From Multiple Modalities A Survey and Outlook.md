@@ -22,3 +22,11 @@
 > > As detailed in Section 3, we can clearly observe the heterogeneity of modality combinations: (1) For general time series analysis, the usual combination is Time+Text. (2) For different domains, the combinations vary. For example, in the medical domain, Time+Tabular is common, while in other domains it is rare. (3) Within a specific domain, different datasets usually have different modality combinations. For instance, in the medical domain. the MIMIC dataset [ 85 ] includes Time+Text+Image+Tabular, while PTXL only includes Time+Text [177]. (4) Finally, at the sample level within a dataset, there are missing modality issues [46, 86].
 > 
 > 시계열 multimodal에는 다른 도메인과 다르게 여러 modality가 존재.
+> > [!PDF|research gap] [[How Can Time Series Analysis Benefit From Multiple Modalities A Survey and Outlook.pdf#page=9&selection=211,27,217,10&color=research gap|How Can Time Series Analysis Benefit From Multiple Modalities A Survey and Outlook, p.9]]
+> >  The first is the scalable modality fusion method [ 55 ] that is capable of handling a variable number of input modalities
+> 
+> > [!PDF|research gap] [[How Can Time Series Analysis Benefit From Multiple Modalities A Survey and Outlook.pdf#page=9&selection=219,0,223,5&color=research gap|How Can Time Series Analysis Benefit From Multiple Modalities A Survey and Outlook, p.9]]
+> > The second is the robust method [46 ] for handling missing modalities.
+> 
+> 
+
