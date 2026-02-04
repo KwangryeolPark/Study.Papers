@@ -1,11 +1,12 @@
 #timeseries #representation-learning #contrastive-learning
 
-> [!PDF|의문점] [[(AutoTCL) PARAMETRIC AUGMENTATION FOR TIME SERIES CONTRASTIVE LEARNING.pdf#page=1&selection=97,86,98,96&color=의문점|(AutoTCL) PARAMETRIC AUGMENTATION FOR TIME SERIES CONTRASTIVE LEARNING, p.1]]
-> > hese methods train an encoder to map instances to an embedding space where similar instances (positive pairs)
+> [!PDF|노트] [[(AutoTCL) PARAMETRIC AUGMENTATION FOR TIME SERIES CONTRASTIVE LEARNING.pdf#page=7&selection=201,0,204,86&color=노트|(AutoTCL) PARAMETRIC AUGMENTATION FOR TIME SERIES CONTRASTIVE LEARNING, p.7]]
+> > We follow CoST (Woo et al., 2022) network architecture. A multi-layer dilated CNN module is used for the backbone and we remove the seasonal feature disentangler module
 > 
-> Q. 여기서 말하는 similar instances는 무엇을 말하는 거지? augmented data or near time data?
-> A.
-> > [!PDF|답변] [[(AutoTCL) PARAMETRIC AUGMENTATION FOR TIME SERIES CONTRASTIVE LEARNING.pdf#page=1&selection=100,70,102,64&color=답변|(AutoTCL) PARAMETRIC AUGMENTATION FOR TIME SERIES CONTRASTIVE LEARNING, p.1]]
-> >  As a key component, data augmentation such as jittering, scaling, permutation, and subsequence extraction (Fan et al., 2020; Wen et al., 2021), is usually adopted to produce positive pairs.
+> Dilated CNN을 backbone으로 사용했다고는 하지만 이에 종속되는 방법론은 아님.
+
+> [!PDF|노트] [[(AutoTCL) PARAMETRIC AUGMENTATION FOR TIME SERIES CONTRASTIVE LEARNING.pdf#page=7&selection=39,2,75,35&color=노트|(AutoTCL) PARAMETRIC AUGMENTATION FOR TIME SERIES CONTRASTIVE LEARNING, p.7]]
+> > Their mask values h(x) a and h(x) p should be similar, compared to another point n that is far away from a, whose mask value is denoted by h(x) n . Formally, we have the following triplet loss.
 > 
-> 
+> $h_a, h_p, h_n$은 문맥 상으로 window가 아니라 하나의 instance 내에 하나의 시점을 가리킨다(scalar).
+
