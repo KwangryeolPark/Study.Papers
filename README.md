@@ -20,7 +20,7 @@
 <details>
 <summary><b>TIMER-XL: LONG-CONTEXT TRANSFORMERS FOR UNIFIED TIME SERIES FORECASTING</b></summary>
 
-**Links:** [PDF](papers/Time%20Series/Multimodal/TIMER-XL%20LONG-CONTEXT%20TRANSFORMERS%20FOR%20UNIFIED%20TIME%20SERIES%20FORECASTING.pdf) | [Notes](notes/Time%20Series/Multimodal/TIMER-XL%20LONG-CONTEXT%20TRANSFORMERS%20FOR%20UNIFIED%20TIME%20SERIES%20FORECASTING.md)
+**Links:** [PDF]((Timer-XL)%20TIMER-XL%20LONG-CONTEXT%20TRANSFORMERS%20FOR%20UNIFIED%20TIME%20SERIES%20FORECASTING.pdf) | [Notes]((Timer-XL)%20TIMER-XL%20LONG-CONTEXT%20TRANSFORMERS%20FOR%20UNIFIED%20TIME%20SERIES%20FORECASTING.md)
 
 **설명:** Decoder-only Transformer 기반의 시계열 예측 모델로, 다변량 시계열 데이터에서 변수 간 의존성을 처리하기 위한 Time Attention 메커니즘을 제안. 사용자 정의 가능한 변수 의존성 행렬(C matrix)을 활용하여 covariate와 target 간의 관계를 명시적으로 모델링하며, 시계열에서 충분히 연구되지 않은 position embedding 문제를 다룬다.
 
@@ -31,7 +31,7 @@
 <details>
 <summary><b>Time-VLM: Exploring Multimodal Vision-Language Models for Augmented Time Series Forecasting</b></summary>
 
-**Links:** [PDF](papers/Time%20Series/Multimodal/Time-VLM%20Exploring%20Multimodal%20Vision-Language%20Models%20for%20Augmented%20Time%20Series%20Forecasting.pdf) | [Notes](notes/Time%20Series/Multimodal/Time-VLM%20Exploring%20Multimodal%20Vision-Language%20Models%20for%20Augmented%20Time%20Series%20Forecasting.md)
+**Links:** [PDF]((Time-VLM)%20Time-VLM%20Exploring%20Multimodal%20Vision-Language%20Models%20for%20Augmented%20Time%20Series%20Forecasting.pdf) | [Notes]((Time-VLM)%20Time-VLM%20Exploring%20Multimodal%20Vision-Language%20Models%20for%20Augmented%20Time%20Series%20Forecasting.md)
 
 **설명:** Vision-Language Model을 시계열 예측에 활용하는 멀티모달 프레임워크. Retrieval-Augmented Learner(시계열 데이터 처리), Vision-Augmented Learner(시계열을 이미지로 변환), Text-Augmented Learner(통계적 특성과 도메인 정보를 텍스트로 생성)의 세 가지 모듈이 협력하여 시간적, 시각적, 텍스트 모달리티를 통합한다. Text는 문맥 이해에, Vision은 세밀한 temporal pattern 포착에 강점을 가진다.
 
@@ -42,7 +42,7 @@
 <details>
 <summary><b>TimeXL: Explainable Multi-modal Time Series Prediction with LLM-in-the-Loop</b></summary>
 
-**Links:** [PDF](papers/Time%20Series/Multimodal/TimeXL%20Explainable%20Multi-modal%20Time%20Series%20Prediction%20with%20LLM-in-the-Loop.pdf) | [Notes](notes/Time%20Series/Multimodal/TimeXL%20Explainable%20Multi-modal%20Time%20Series%20Prediction%20with%20LLM-in-the-Loop.md)
+**Links:** [PDF]((TimeXL)%20TimeXL%20Explainable%20Multi-modal%20Time%20Series%20Prediction%20with%20LLM-in-the-Loop.pdf) | [Notes]((TimeXL)%20TimeXL%20Explainable%20Multi-modal%20Time%20Series%20Prediction%20with%20LLM-in-the-Loop.md)
 
 **설명:** Prototype 기반 encoder와 LLM을 활용하여 해석 가능한 멀티모달 시계열 예측을 제공하는 모델. Case-based rationales를 통해 예측에 대한 설명 가능성을 제공하며, 금융이나 의료 같은 high-stakes 분야에서 중요한 해석 가능성을 강조한다. ICML 2025에서 reject되었으며, 주된 피드백은 각 컴포넌트의 성능 기여도 분석 부족과 LLM 사용 대비 미미한 성능 향상(0.9%p)이었다.
 
@@ -53,7 +53,7 @@
 <details>
 <summary><b>XForecast: Evaluating Natural Language Explanations for Time Series Forecasting</b></summary>
 
-**Links:** [PDF](papers/Time%20Series/Multimodal/XForecast%20Evaluating%20Natural%20Language%20Explanations%20for%20Time%20Series%20Forecasting.pdf) | [Notes](notes/Time%20Series/Multimodal/XForecast%20Evaluating%20Natural%20Language%20Explanations%20for%20Time%20Series%20Forecasting.md)
+**Links:** [PDF]((XForecast)%20XForecast%20Evaluating%20Natural%20Language%20Explanations%20for%20Time%20Series%20Forecasting.pdf) | [Notes]((XForecast)%20XForecast%20Evaluating%20Natural%20Language%20Explanations%20for%20Time%20Series%20Forecasting.md)
 
 **설명:** 시계열 예측에서 자연어 설명(Natural Language Explanation)을 평가하는 방법론을 다룬 논문. Saliency maps와 같은 시각적 중요도 표현을 넘어 자연어로 예측 근거를 제공하는 방식을 탐구한다.
 
