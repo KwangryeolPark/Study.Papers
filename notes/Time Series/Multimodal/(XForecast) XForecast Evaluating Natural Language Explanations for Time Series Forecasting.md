@@ -7,3 +7,4 @@
 #안읽음 
 #timeseries
 #multimodal
+모델이 아닌 설명 가능성에 대한 측정 지료를 제안하는 논문.
