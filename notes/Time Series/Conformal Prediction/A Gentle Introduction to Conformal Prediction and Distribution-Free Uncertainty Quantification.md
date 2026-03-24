@@ -50,3 +50,9 @@
 > > With an eye towards generalization, let us review in detail what happened in our classification problem. To begin, we were handed a model that had an inbuilt, but heuristic, notion of uncertainty: softmax outputs. The softmax outputs attempted to measure the conditional probability of each class; in other words, the jth entry of the softmax vector estimated P(Y = j | X = x), the probability of class j conditionally on an input image x. However, we had no guarantee that the softmax outputs were any good; they may have been arbitrarily overfit or otherwise untrustworthy. Therefore, instead of taking the softmax outputs at face value, we used the holdout set to adjust for their deficiencie
 > 
 > Face value 즉, 모델이 출력한 Softmax가 overfitting인지 underfitting인지 모르기에 그대로 믿는 것은 위험이 따른다. 따라서, "학습에 전혀 관려하지 않은 새로운 데이터 즉, Calibration dataset"이 반드시 필요한다.
+
+> [!PDF|] [[A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification.pdf#page=7&selection=31,7,79,3|A Gentle Introduction to Conformal Prediction and Distribution-Free Uncertainty Quantification, p.7]]
+> >  $$k=sup\left\{k':\sum_{j=1}^{k'}\hat{f}(X_{test})_{\pi_j(x)}<1-\alpha\right\}+1$$
+> 
+> 안쪽 수식을 만족하는 가장 큰 k'를 찾아서 거기에 1을 더한 것을 k로 정의
+
